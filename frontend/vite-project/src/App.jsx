@@ -3,9 +3,9 @@ import './App.css'
 
 const App = () => {
   return (
-    <div className='text-3xl font-bold underline'>
-      Hello aman
-    </div>
+    <button className="btn btn-primary">
+      Click Me
+    </button>
   )
 }
 
