@@ -46,7 +46,7 @@ const SignUpPage = () => {
                 className="size-12 rounded-xl bg-primary/10 flex items-center justify-center 
               group-hover:bg-primary/20 transition-colors"
               >
-                <MessageSquare className="size-6 text-primary z-50" />
+                <MessageSquare className="size-6 text-primary" />
               </div>
               <h1 className="text-2xl font-bold mt-2">Create Account</h1>
               <p className="text-base-content/60">Get started with your free account</p>
@@ -60,7 +60,7 @@ const SignUpPage = () => {
               </label>
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                <User className="w-5 h-5 text-blue-500 z-50" />
+                  <User className="size-5 text-base-content/40" />
                 </div>
                 <input
                   type="text"
@@ -78,7 +78,7 @@ const SignUpPage = () => {
               </label>
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <Mail  className="size-5 text-blue-500 z-50" />
+                  <Mail className="size-5 text-base-content/40" />
                 </div>
                 <input
                   type="email"
@@ -96,7 +96,7 @@ const SignUpPage = () => {
               </label>
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <Lock className="size-5 text-blue-500 z-50" />
+                  <Lock className="size-5 text-base-content/40" />
                 </div>
                 <input
                   type={showPassword ? "text" : "password"}
@@ -111,9 +111,9 @@ const SignUpPage = () => {
                   onClick={() => setShowPassword(!showPassword)}
                 >
                   {showPassword ? (
-                    <EyeOff className="size-5 text-base-content/40 z-50" />
+                    <EyeOff className="size-5 text-base-content/40" />
                   ) : (
-                    <Eye className="size-5 text-base-content/40 z-50" />
+                    <Eye className="size-5 text-base-content/40" />
                   )}
                 </button>
               </div>

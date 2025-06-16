@@ -49,7 +49,7 @@ const ProfilePage = () => {
                   ${isUpdatingProfile ? "animate-pulse pointer-events-none" : ""}
                 `}
               >
-                <Camera className="w-5 h-5 text-base-200 z-50" />
+                <Camera className="w-5 h-5 text-base-200" />
                 <input
                   type="file"
                   id="avatar-upload"
@@ -68,7 +68,7 @@ const ProfilePage = () => {
           <div className="space-y-6">
             <div className="space-y-1.5">
               <div className="text-sm text-zinc-400 flex items-center gap-2">
-                <User className="w-4 h-4 z-50" />
+                <User className="w-4 h-4" />
                 Full Name
               </div>
               <p className="px-4 py-2.5 bg-base-200 rounded-lg border">{authUser?.fullName}</p>
@@ -76,7 +76,7 @@ const ProfilePage = () => {
 
             <div className="space-y-1.5">
               <div className="text-sm text-zinc-400 flex items-center gap-2">
-                <Mail className="w-4 h-4 z-50" />
+                <Mail className="w-4 h-4" />
                 Email Address
               </div>
               <p className="px-4 py-2.5 bg-base-200 rounded-lg border">{authUser?.email}</p>
