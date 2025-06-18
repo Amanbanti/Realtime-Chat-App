@@ -1,7 +1,7 @@
 {
   "name": "chat-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Highlights:",
   "main": "index.js",
   "scripts": {
     "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
@@ -9,5 +9,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amanbanti/Realtime-Chat-App.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Amanbanti/Realtime-Chat-App/issues"
+  },
+  "homepage": "https://github.com/Amanbanti/Realtime-Chat-App#readme"
 }
