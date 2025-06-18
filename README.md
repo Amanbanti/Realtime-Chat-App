@@ -48,7 +48,7 @@ Or
 npm run dev
 ```
 
-## To Start back-end server
+## To Start Back-end server
 ```shell
 npm run dev
 ```
