@@ -43,12 +43,7 @@ npm start
 ```
 Or
 
-## To Startfront-end server
-```shell
-npm run dev
-```
-
-## To Start front-end server
+## To Start Front-end Server
 ```shell
 npm run dev
 ```
@@ -57,7 +52,7 @@ npm run dev
 ```shell
 npm run dev
 ```
-## to seed users on the back-end
+## To Seed users to DB
 ```shell
 npm run user.seed
 ```
